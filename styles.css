@@ -1,0 +1,39 @@
+.social-links{
+   border: black solid 4px;
+   margin-top: 50px;
+}
+
+a {
+  border: black solid 4px;
+  margin-top:50px;
+  padding: 5px;
+}
+
+h1{
+	font-family: ariel;
+	color: blue;
+	padding: 4px;
+	margin-right: 540px;
+	margin-left: 540px;
+}
+
+.classOne {
+	text-align: center;
+	border: solid red 4px;
+	border-radius: 5.5%
+	
+}
+
+h2 {
+	font-family: ariel;
+	color: blue;
+	padding: 4px;
+	margin-right: 540px;
+	margin-left: 540px;
+}
+
+p {
+	font-size: 40px;
+	color: green;
+	background: yellow; 
+}
