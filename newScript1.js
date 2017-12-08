@@ -29,11 +29,11 @@ if (correct === 3) {
 	document.write('<p>'+ comres + '</p>');
 }
 else if (correct === 2) {
-	document.write('<p>you tried but missed one</p>');
+	document.write('<p>'+ comres1 + '</p>');
 }
 else if (correct === 1) {
-	document.write('<p>you only got one correct, you should work harder</p>');
+	document.write('<p>'+ comres2 + '</p>');
 }
 else if (correct < 1) {
-	document.write('<p>' + 'you did not get any of the answers correct, you should re-study' + '</p>');
+	document.write('<p>'+ comres3 + '</p>');
 }
