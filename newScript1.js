@@ -1,6 +1,9 @@
 // delare variable for corect answer
 var correct = 0;
 var comres = 'congratulations';
+var comres1 = 'you tried but missed one';
+var comres2 = 'you only got one correct, you should work harder';
+var comres3 = 'you did not get any of the answers correct, you should re-study';
 
 //create the questions and increment correct by 1
 
@@ -25,12 +28,12 @@ document.write('<p>' + 'you got ' + correct + ' out of the 3 questions' + '</p>'
 if (correct === 3) {
 	document.write('<p>'+ comres + '</p>');
 }
-if (correct === 2) {
+else if (correct === 2) {
 	document.write('<p>you tried but missed one</p>');
 }
-if (correct === 1) {
+else if (correct === 1) {
 	document.write('<p>you only got one correct, you should work harder</p>');
 }
-if (correct < 1) {
+else if (correct < 1) {
 	document.write('<p>' + 'you did not get any of the answers correct, you should re-study' + '</p>');
 }
